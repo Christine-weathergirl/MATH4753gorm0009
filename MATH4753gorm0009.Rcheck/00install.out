@@ -1,0 +1,10 @@
+* installing *source* package 'MATH4753gorm0009' ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error: object 'geom_plot' is not exported by 'namespace:ggplot2'
+Execution halted
+ERROR: lazy loading failed for package 'MATH4753gorm0009'
+* removing 'C:/Users/Meteo/Dropbox/PC/Documents/R Packages/MATH4753gorm0009.Rcheck/MATH4753gorm0009'

@@ -1,0 +1,43 @@
+---
+title: "Project 1"
+author: "Christine Gormley"
+date: "3/3/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+ddt= read.csv("DDT.csv")
+
+library(dplyr)
+library(ggplot2)
+
+myfunNSE = function(df,cond){
+  
+  df %>% filter({{cond}}) # Note the use of {{}}
+}
+
+library(Intro2R)
+myfunNSE(ddt, cond = LENGTH > 40)
+
+myfun2NSE <- function(df, x, y, cond, col){
+  
+  df1 <- df %>% filter({{cond}}) # Note the use of {{}}
+  g <- ggplot(df1, aes_string(x=x,y=y)) + # Note the use of aes_string 
+    geom_point(aes_string(color = col )) +
+    geom_smooth(formula = y~x +I(x^2), method = "lm")
+  print(g)
+  head(df1)
+  
+}
+
+myfun2NSE(df = ddt, x = "LE
+
+
+
+
+```
+

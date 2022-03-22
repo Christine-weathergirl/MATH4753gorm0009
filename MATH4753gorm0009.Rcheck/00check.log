@@ -1,0 +1,20 @@
+* using log directory 'C:/Users/Meteo/Dropbox/PC/Documents/R Packages/MATH4753gorm0009.Rcheck'
+* using R version 4.1.2 (2021-11-01)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'MATH4753gorm0009/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'MATH4753gorm0009' version '0.1.0'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'MATH4753gorm0009' can be installed ... ERROR
+Installation failed.
+See 'C:/Users/Meteo/Dropbox/PC/Documents/R Packages/MATH4753gorm0009.Rcheck/00install.out' for details.
+* DONE
+Status: 1 ERROR
